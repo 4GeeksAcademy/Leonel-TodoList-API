@@ -1,12 +1,117 @@
 
+*{
+    box-sizing: border-box;
+}
+    
+.title-tod{
+  
+    width: 100%;
+    margin-right: 50%;
+}
+
+.titleInput{
+    text-align: center;
+    color: #ECDFDF;
+    margin-top: 60px;
+}
+
+.containerInput{
+    background-color:#F6F6F6 ;
+    width: 60%;
+    height:50vh;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+   margin-top: 200px;
+ 
+}
+
 /* 
+.buttonInput{
+    border: 1px solid #444444;
+ 
+} */
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.name{
+    margin: 7px;
+    border: 1px solid #444444;
+}
 
-*/
+.title{
+    margin-top: 5px;
+}
+
+.inputName{
+    margin:10px
+
+}
+
+.deletingRender{
+   
+    width: 60%;
+    height:70vh;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+   text-align: center;
+   margin-top: 200px;
+   font-size: 20px;
+
+}
+
+/* .classList{
+height: 40px;
+padding-left: 30px;
+border-bottom: 1px solid #D2D2D2;
+border-left: 1px solid #D2D2D2;
+border-right: 1px solid #D2D2D2;
+} */
+
+/* .checkBoxButton{
+    background-color: transparent;
+    border: 1px solid #F6F6F6;
+    font-size: 15px;
+    margin-right: -10px;  
+    
+} */
+
+.checkbox-container {
+    cursor: pointer ;
+   
+}
+
+.checkbox-container label{
+    cursor: pointer ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.checkbox-container li{
+    cursor: pointer ;
+}
+
+.checkbox-container input[type='checkbox']{
+    cursor:pointer;
+    opacity: 0;
+}
+
+
+.checkbox-container input[type='checkbox']:focus+label{
+    box-shadow:  20px black;
+    opacity: 1;
+}
+
+
+
+.checkbox-container input[type='checkbox']:checked  {
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+
+
+.checkbox-container label:hover input[type='checkbox']{
+    opacity: 1;
+}
